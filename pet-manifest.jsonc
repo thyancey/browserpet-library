@@ -1,0 +1,5 @@
+{
+  "pets":[
+    { "id": "hotdoug", "baseUrl": "pets/hotdoug" }
+  ]
+}
