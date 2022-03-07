@@ -10,7 +10,7 @@
         "id": "cheeri-lust",
         "label": "Cheeri Lust",
         "value": 0.0,
-        "perSecond": 21.68,
+        "perSecond": 121.68,
         "min": 0.0,
         "max": 1000.0,
         "fullIsGood": false,
@@ -46,7 +46,7 @@
     "behaviorRules":[
       {
         "when": ["STATUS_HUNGRY"],
-        "then": "BE_UNHAPPY"
+        "then": [ "BE_UNHAPPY", "BE_SAD" ]
       },
       {
         "when": ["STATUS_BLOATED"],
@@ -75,8 +75,8 @@
         "cooldown": 1000,
         "changeStats":[
           {
-            "statId":"cherri-lust",
-            "value": -100.0
+            "statId":"cheeri-lust",
+            "value": -300.0
           }
         ]
       }

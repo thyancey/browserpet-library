@@ -10,12 +10,12 @@
         "id": "food",
         "label": "Food",
         "value": 10.0,
-        "perSecond": -0.2,
+        "perSecond": -0.9,
         "min": 0.0,
         "max": 20.0,
         "fullIsGood": true,
         "statEffects": [
-          { "when": "<_40%", "then": "STATUS_HUNGRY" },
+          { "when": "<_70%", "then": "STATUS_HUNGRY" },
           { "when": "<=_0%", "then": "STATUS_DEAD" }
         ]
       }
@@ -54,12 +54,12 @@
     "interactions":[
       {
         "id":"INT_FEED",
-        "label": "feed me!",
+        "label": "feed me! (+3)",
         "cooldown": 1000,
         "changeStats":[
           {
             "statId":"food",
-            "value": 1.0
+            "value": 3.0
           }
         ]
       }
