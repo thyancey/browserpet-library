@@ -3,6 +3,7 @@
   "name": "Mika",
   "bio": "This is some placeholder text and this is some more placeholder text. This is some placeholder text and this is some more placeholder text. This is some placeholder text and this is some more placeholder text. This is some placeholder text and this is some more placeholder text. ",
   "level": 0,
+  "backgroundColor": "#e48c7c",
   "logic":{
     "stats":[
       {
