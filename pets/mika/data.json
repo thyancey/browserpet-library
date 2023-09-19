@@ -2,8 +2,11 @@
   "id": "mika",
   "name": "Mika",
   "bio": "This is some placeholder text and this is some more placeholder text. This is some placeholder text and this is some more placeholder text. This is some placeholder text and this is some more placeholder text. This is some placeholder text and this is some more placeholder text. ",
-  "level": 0,
-  "backgroundColor": "#e48c7c",
+  "theme": {
+    "color-primary": "#497F89",
+    "color-secondary": "#FEFDFC",
+    "color-highlight": "#E38777"
+  },
   "logic":{
     "stats":[
       {
@@ -31,23 +34,17 @@
         ]
       }
     ],
-    "statuses":[
-      {
-        "id": "STATUS_NORMAL",
-        "label": "normal",
-        "message": ""
+    "statuses": {
+      "STATUS_NORMAL": {
+        "label": "normal"
       },
-      {
-        "id": "STATUS_HUNGRY",
-        "label": "hungry",
-        "message": ""
+      "STATUS_HUNGRY": {
+        "label": "hungry"
       },
-      {
-        "id": "STATUS_POOPY",
-        "label": "poopy",
-        "message": ""
+      "STATUS_POOPY": {
+        "label": "poopy"
       }
-    ],
+    },
     "behaviorRules":[
       {
         "when": ["STATUS_HUNGRY"],
