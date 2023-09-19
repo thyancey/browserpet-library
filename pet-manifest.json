@@ -1,6 +1,7 @@
 {
   "pets":[
     { "id": "hotdoug", "baseUrl": "pets/hotdoug" },
+    { "id": "hotdoug-old", "baseUrl": "pets/hotdoug-old" },
     { "id": "bunchie", "baseUrl": "pets/bunchie" },
     { "id": "mika", "baseUrl": "pets/mika" },
     { "id": "cheerimonster", "baseUrl": "pets/cheerimonster" },
